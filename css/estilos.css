@@ -1,0 +1,58 @@
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  position: relative;
+}
+header {
+  img {
+    width: 150px;
+    height: auto;
+  }
+  background-color: #dd0f0f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.lado2 {
+  color: #000000;
+  width: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lado2 svg {
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease-in-out;
+  fill: #000000;
+}
+.lado2 svg:hover {
+  fill: #ffffff;
+  cursor: pointer;
+  scale: 1.2;
+  rotate: 15deg;
+}
+
+.menumovil.reveal {
+  display: flex;
+}
+.menumovil {
+  position: fixed;
+  top: 100px;
+  background-color: #00a724;
+  color: rgb(1, 18, 199);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.3s ease-in-out;
+}
